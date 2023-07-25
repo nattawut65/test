@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="navbar" id="navbar__id">
+      <div>
+        <img src='logo vergil.jpg' alt='LOGO'/>
+      </div>
+      <ul className="navbar__menu">
+        <li>หน้าแรก</li>
+        <li>ตารางเทียลแคลอรี่</li>
+        <li>ผู้จัดทำ</li>
+      </ul>
+      <div className='navbar__footer'>
+      </div>
     </div>
   );
 }
 
 export default App;
+
